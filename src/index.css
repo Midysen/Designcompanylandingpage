@@ -1248,7 +1248,7 @@
   }
 
   .text-white {
-    color: var(--color-white);
+    /*color: var(--color-white);*/
   }
 
   .text-white\/40 {

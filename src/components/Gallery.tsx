@@ -7,47 +7,47 @@ import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 const portfolioImages = [
   {
     id: 1,
-    src: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhY2NlbnQlMjB3YWxsJTIwaW50ZXJpb3J8ZW58MXx8fHwxNzYzMzI3MDcxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/538ebf7f720045138ce5ac9073742d0d.jpg',
     alt: 'Modern accent wall with elegant design',
   },
   {
     id: 2,
-    src: 'https://images.unsplash.com/photo-1722109997425-40f920848aed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b29kJTIwcGFuZWwlMjB3YWxsfGVufDF8fHx8MTc2MzMyNzA3MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/cbdeee6aeafc472ac8a2835496fb0492.jpg',
     alt: 'Wood panel accent wall',
   },
   {
     id: 3,
-    src: 'https://images.unsplash.com/photo-1675350174715-424e25f73c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjZWlsaW5nJTIwZGVzaWdufGVufDF8fHx8MTc2MzI5NjUyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/4eee367bca61a74142008697e31de820.jpg',
     alt: 'Modern ceiling design',
   },
   {
     id: 4,
-    src: 'https://images.unsplash.com/photo-1752123150230-45ef1a1bb9c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBpbnRlcmlvciUyMHdhbGx8ZW58MXx8fHwxNzYzMzI3MDcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/dddc8af6ae5d86aa721460ec5a5358e1.jpg',
     alt: 'Luxury interior wall design',
   },
   {
     id: 5,
-    src: 'https://images.unsplash.com/photo-1711915442858-2a5bb7ba67d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZXh0dXJlZCUyMHdhbGwlMjBwYW5lbHxlbnwxfHx8fDE3NjMzMjcwNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/b5eba847ab3623ea011d5a81295628db.jpg',
     alt: 'Textured wall panel design',
   },
   {
     id: 6,
-    src: 'https://images.unsplash.com/photo-1753505889211-9cfbac527474?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwxfHx8fDE3NjMzMTI3ODV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/8d44edfdf82592da58f063b4cd098a44.jpg',
     alt: 'Contemporary interior design',
   },
   {
     id: 7,
-    src: 'https://images.unsplash.com/photo-1680965075873-64356db057fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3YWxsJTIwcGFuZWxpbmclMjBsaXZpbmclMjByb29tfGVufDF8fHx8MTc2MzMyNzA3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/3763d6dbe2b6843b6181af108239b628.jpg',
     alt: 'Wall paneling in living room',
   },
   {
     id: 8,
-    src: 'https://images.unsplash.com/photo-1633945089460-5f0a309e10c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBiZWRyb29tJTIwd2FsbHxlbnwxfHx8fDE3NjMzMjcwNzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/1cde89796d6ff77409df7c1ce3b0087b.jpg',
     alt: 'Modern bedroom wall design',
   },
   {
     id: 9,
-    src: 'https://images.unsplash.com/photo-1610701596061-2ecf227e85b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmlvciUyMGNyYWZ0c21hbnNoaXB8ZW58MXx8fHwxNzYzMzI3MDc0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://i.gyazo.com/e9623188527ff62553c768827f11c02c.jpg',
     alt: 'Premium craftsmanship detail',
   },
 ];
@@ -107,7 +107,7 @@ export function Gallery() {
             {/* Navigation Buttons */}
             <button
               onClick={handlePrev}
-              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white border border-[#8A9A7B]/20 rounded-full shadow-lg flex items-center justify-center hover:bg-[#8A9A7B] hover:text-white transition-all -translate-x-1/2 md:-translate-x-full"
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white border border-[#8A9A7B]/20 rounded-full shadow-lg flex items-center justify-center hover:bg-[#8A9A7B] hover:text-white transition-all -translate-x-1/2 md:-translate-x-full cursor-pointer"
               aria-label="Previous"
             >
               <ChevronLeft className="w-6 h-6" />
@@ -115,7 +115,7 @@ export function Gallery() {
 
             <button
               onClick={handleNext}
-              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white border border-[#8A9A7B]/20 rounded-full shadow-lg flex items-center justify-center hover:bg-[#8A9A7B] hover:text-white transition-all translate-x-1/2 md:translate-x-full"
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-white border border-[#8A9A7B]/20 rounded-full shadow-lg flex items-center justify-center hover:bg-[#8A9A7B] hover:text-white transition-all translate-x-1/2 md:translate-x-full cursor-pointer"
               aria-label="Next"
             >
               <ChevronRight className="w-6 h-6" />

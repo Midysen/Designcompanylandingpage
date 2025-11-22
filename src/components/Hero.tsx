@@ -1,5 +1,6 @@
 import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
+import heroVideo from '../assets/IMG_6686.mp4';
 
 export function Hero() {
   const scrollToContact = () => {
@@ -26,7 +27,7 @@ export function Hero() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="https://cdn.pixabay.com/video/2023/05/02/160978-823553036_large.mp4" type="video/mp4" />
+        <source src={heroVideo} type="video/mp4" />
       </video>
       
       {/* Overlay */}
@@ -44,10 +45,10 @@ export function Hero() {
         <h1 className="text-white mb-8">
           Accent Walls & Ceilings
         </h1>
-        <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-gray-800 mb-4 max-w-3xl mx-auto leading-relaxed">
           Premium craftsmanship in Denver, Colorado.
         </p>
-        <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto italic">
+        <p className="text-lg md:text-xl text-gray-700 mb-12 max-w-2xl mx-auto italic">
           Every piece we craft carries a part of our soul—designed with passion, built with purpose.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
